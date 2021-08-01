@@ -16,13 +16,25 @@ code {
 
 .home{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   /* background-color: aquamarine; */
   height:100vh;
   width:100vw;
 }
+
+.homeup
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: aquamarine; */
+  height:80vh;
+  width:100vw;
+}
+
 .homeleft{
   display: flex;
   flex-direction: column;
@@ -41,6 +53,38 @@ code {
   height:100vh;
   width:50vw;
 }
+
+.homedown
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: rgb(21, 54, 43); */
+  height:20vh;
+  width:100vw;
+}
+
+h1 {
+  position: relative;
+  display: inline-block;
+  /* font-size:40em; */
+  font-weight: 800;
+  color: black;
+  overflow: hidden;
+  background: linear-gradient(to right,  #4285F4, #EA4335,#FBBC04,#34A853, black 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  font-family: Caranda;
+}
+
+h1:hover{
+    background-position: 0 100%;
+}
 .tilt {
   -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
@@ -55,4 +99,8 @@ code {
        -o-transform: rotate(-10deg);
       -ms-transform: rotate(-10deg);
           transform: rotate(-10deg);
+}
+@font-face {
+  font-family: Caranda;
+  src: url("../src/media/fonts/CarandaPersonalUse-qLOq.ttf");
 }
