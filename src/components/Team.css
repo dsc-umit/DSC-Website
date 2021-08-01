@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+}   
+.card-row-1{
+    /*padding-left: 7em;
+    padding-right: 6em;*/
+    align-items: center;
+    flex-wrap: wrap;
+  justify-content: center;
+}
+.card-row-2{
+    /*padding-left: 7em;
+    padding-right: 6em;*/
+    align-items: center;
+    flex-wrap: wrap;
+  justify-content: center;
+}
+.card-row-3{
+    /*padding-left: 7em;
+    padding-right: 6em;*/
+    align-items: center;
+    flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+   
+    margin-right: 3em;
+    
+}
