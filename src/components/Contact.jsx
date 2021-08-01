@@ -9,6 +9,18 @@ const Contact = () => {
     return (
         <div className="contact">
             <Container>
+                <h1>boom</h1>
+                <h1>boom</h1>
+                <h1>boom</h1>
+                <h1>boom</h1>
+                <h1>boom</h1>
+                <h1>boom</h1>
+                <h1>boom</h1>
+                <h1>boom</h1>
+                <h1>boom</h1>
+                <h1>boom</h1>
+                <h1>boom</h1>
+                <h1>boom</h1>
                 <Row>
                     <Col lg={6}>
                         <Container className="contact-map">
