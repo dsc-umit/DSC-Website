@@ -14,6 +14,8 @@ function App() {
           <Contact />
         </Route>
       </Router>
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-466f64d1-ed62-479b-b4b5-a9c5acf673c3"></div>
     </div>
   );
 }
