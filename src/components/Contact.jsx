@@ -28,6 +28,10 @@ const Contact = () => {
                                 <Form.Control placeholder="Enter the Subject" />
                             </Form.Group>
 
+                            <Form.Group>
+                                <Form.Control placeholder="Write your message..." as="textarea" rows={6} />
+                            </Form.Group>
+
                         </Form>
                     </Col>
                 </Row>
