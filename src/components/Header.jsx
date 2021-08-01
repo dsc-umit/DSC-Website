@@ -1,11 +1,11 @@
 import React from 'react'
 import {Navbar, Nav, Container} from 'react-bootstrap';
-import logo from "./logo.png";
+import logo from "../media/logo.png";
 import "./Header.css";
 
 const Header = () => {
     return (
-        <Navbar collapseOnSelect expand="lg"  variant="light" style={{backgroundColor: "white", paddingTop: "1rem" }}>
+        <Navbar fixed="top" collapseOnSelect expand="lg"  variant="light" className="main">
             <Container>
             <Navbar.Brand href="#home"><img src={logo} height={40} className="d-inline-block align-top"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
