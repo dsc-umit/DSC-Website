@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Header, Home, Testimonials, Contact, About } from './components'
+import { Header, Home, Testimonials, Contact, About , Events} from './components'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
           <Home />
           <About />
           <Testimonials />
+          <Events/>
           <Contact />
         </Route>
       </Router>
