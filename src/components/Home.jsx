@@ -10,6 +10,9 @@ const Home = () => {
             <div class="homeleft">
                 <img alt= "yaha img aana chahiye tha" src={dsc} height="35%" ></img>
                 <h5> Powered by Google Developers</h5>
+                <div class="homedown">
+                    <h1>We inspire learning</h1>
+                </div>
             </div>
             <div class="homeright">
                 <div class="tilt">
@@ -17,9 +20,7 @@ const Home = () => {
                 </div>
             </div>
             </div>
-            <div class="homedown">
-            <h1>We inspire learning</h1>
-            </div>
+            
             
         </div>
     )
