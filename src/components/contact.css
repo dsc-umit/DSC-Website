@@ -34,8 +34,27 @@
 
 .class-socials{
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .a-socials{
     margin: 5px;
+    color: grey;
+}
+
+.button-socials{
+    background-color: grey;
+    border: none;
+}
+
+.button-socials:hover{
+    background-color: #ffffff;
+    border-width: 1px;
+    border-color: #4285F4;
+    color: black;
+}
+
+small{
+    color: grey;
+    padding-bottom: 80px;
 }

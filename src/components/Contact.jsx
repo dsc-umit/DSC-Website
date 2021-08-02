@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAddressCard, faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
+import { faAddressCard, faEnvelope, faHeart, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 import { faDiscord, faFacebook, faGithub, faInstagram, faLinkedin, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
@@ -72,26 +72,29 @@ const Contact = () => {
                 <br></br>
                 <div className="class-socials" align="center">
                     <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
-                        <Button><FontAwesomeIcon className="contact-socials" size="lg" icon={faGithub}/></Button>
+                        <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faGithub}/></Button>
                     </a>
                     <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
-                        <Button><FontAwesomeIcon className="contact-socials" size="lg" icon={faLinkedin}/></Button>
+                        <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faLinkedin}/></Button>
                     </a>
                     <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
-                        <Button><FontAwesomeIcon className="contact-socials" size="lg" icon={faMedium}/></Button>
+                        <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faMedium}/></Button>
                     </a>
                     <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
-                        <Button><FontAwesomeIcon className="contact-socials" size="lg" icon={faDiscord}/></Button>
+                        <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faDiscord}/></Button>
                     </a>
                     <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
-                        <Button><FontAwesomeIcon className="contact-socials" size="lg" icon={faInstagram}/></Button>
+                        <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faInstagram}/></Button>
                     </a>
                     <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
-                        <Button><FontAwesomeIcon className="contact-socials" size="lg" icon={faTwitter}/></Button>
+                        <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faTwitter}/></Button>
                     </a>
                     <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
-                        <Button><FontAwesomeIcon className="contact-socials" size="lg" icon={faFacebook}/></Button>
+                        <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faFacebook}/></Button>
                     </a>
+                </div>
+                <div align="center">
+                <small align="center">Made with <FontAwesomeIcon color="red" icon={faHeart}/> by Team DSC UMIT 2021'-22'<br></br><i>Illustrations by freepik, unDraw.io</i></small>
                 </div>
             </Container>
         </div>
