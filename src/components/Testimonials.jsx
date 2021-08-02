@@ -5,7 +5,7 @@ import { Col } from 'react-bootstrap'
 const Testimonials = () => {
     return (
         <div id = "tests">
-            <h3 className="lead testimonials-h" style={{ textAlign: "center" }}>Testimonials</h3>
+            <h2 className="testimonials-h" style={{ textAlign: "center" }}>Testimonials</h2>
             <div class="container" style={{ disply: "block" }}>
                 <Col lg={12}>
                     <div class="card w-100" style={{ marginLeft: "0px", marginTop: "-5px" }} >

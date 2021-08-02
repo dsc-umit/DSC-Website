@@ -14,7 +14,7 @@ const Team = () => {
     return (
         <div>
         <Container>
-            <h2>Team</h2>
+            <h2 className='team'>Team</h2>
             <Row className='card-row-1'>
                 <center>
                     <Card className='card1' align="center">
