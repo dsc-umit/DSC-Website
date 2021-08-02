@@ -141,7 +141,7 @@ const Team = () => {
                 </Col>
                 <center>
                 <br></br>
-                <Card.Title>Tejashri Mithbawkar</Card.Title>
+                <Card.Title>Tejashri Mitbavkar</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Core Team Member</Card.Subtitle>
                 <Card.Text>
                 About you
