@@ -72,25 +72,25 @@ const Contact = () => {
                 </Row>
                 <br></br>
                 <div className="class-socials" align="center">
-                    <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
+                    <a className="a-socials" href="https://github.com/dsc-umit" target="_blank" rel="noreferrer noopener">
                         <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faGithub}/></Button>
                     </a>
-                    <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
+                    <a className="a-socials" href="https://www.linkedin.com/company/dsc-umit" target="_blank" rel="noreferrer noopener">
                         <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faLinkedin}/></Button>
                     </a>
-                    <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
+                    <a className="a-socials" href="https://medium.com/dsc-umit" target="_blank" rel="noreferrer noopener">
                         <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faMedium}/></Button>
                     </a>
-                    <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
+                    <a className="a-socials" href="https://discord.gg/WxRDeAFxbu" target="_blank" rel="noreferrer noopener">
                         <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faDiscord}/></Button>
                     </a>
-                    <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
+                    <a className="a-socials" href="https://www.instagram.com/dsc_umit/" target="_blank" rel="noreferrer noopener">
                         <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faInstagram}/></Button>
                     </a>
-                    <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
+                    <a className="a-socials" href="https://twitter.com/DscUmit" target="_blank" rel="noreferrer noopener">
                         <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faTwitter}/></Button>
                     </a>
-                    <a className="a-socials" href="https://github.com/dsc-umit/DSC-Website" target="_blank" rel="noreferrer noopener">
+                    <a className="a-socials" href="https://www.facebook.com/dsc.umit.3" target="_blank" rel="noreferrer noopener">
                         <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faFacebook}/></Button>
                     </a>
                 </div>
