@@ -3,7 +3,7 @@ import { Col } from 'react-bootstrap'
 
 const Testimonials = () => {
     return (
-        <div>
+        <div id = "tests">
             <h3 style={{ textAlign: "center" }}>Testimonials</h3>
             <div class="container" style={{ disply: "block" }}>
                 <Col lg={12}>
