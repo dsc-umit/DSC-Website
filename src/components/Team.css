@@ -1,6 +1,9 @@
-h2{
+.team{
     text-align: center;
+    color:#EA4335;
+    font-size:xx-large;
 }   
+
 .card-row-1{
   margin-bottom: 2em;
 }

@@ -1,12 +1,21 @@
-.lead{
+h2{
+    display: grid;
+    width: 100%;
+    align-items: center;
     text-align: center;
-    font-size: xx-large;
-    padding: 20px;
-    font-weight: 400;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-gap: 20px;
+    padding: 1.5em;
+}
+h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid #7e7e7e;
 }
 
 .contact-h{
     color: #4285F4;
+    
 }
 
 .contact-map{

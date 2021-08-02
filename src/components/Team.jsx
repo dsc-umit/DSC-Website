@@ -12,9 +12,9 @@ import { SiGithub } from 'react-icons/si';
 import { FaLinkedin } from 'react-icons/fa'
 const Team = () => {
     return (
-        <div>
+        <div id="team">
         <Container>
-            <h2>Team</h2>
+            <h2 className='team'>Team</h2>
             <Row className='card-row-1'>
                 <center>
                     <Card className='card1' align="center">
