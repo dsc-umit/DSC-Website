@@ -14,25 +14,6 @@ code {
     monospace;
 }
 
-.cards {
-  width:100%;
-  height:auto;
-}
-
-.card{
- margin: 6%;
- transition: all 0.4s cubic-bezier(0.175, 0.885,0,1);
- background-color: #fff;
- width: 21.25%;
- border-radius: 12px;
- box-shadow: 0px 13px 10px -7px rgba(0,0 ,0,0.1);
- float:left;
-}
-
-.card:hover{
- box-shadow:0px 30px 18px -8px rgba(0,0,0,0.1);
- transform: scale(1.05,1.05);
-}
 .home
 {
   display: flex;
@@ -82,24 +63,30 @@ code {
   align-items: center;
   /* background-color: rgb(21, 54, 43); */
   height:20vh;
-  width:100vw;
+  /* width:100vw; */
 }
 
 h1 {
   position: relative;
   display: inline-block;
   /* font-size:40em; */
-  font-weight: 800;
+  font-weight: 400;
   color: black;
-  overflow: hidden;
+  /* overflow: hidden; */
   background: linear-gradient(to right,  #4285F4, #EA4335,#FBBC04,#34A853, black 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
+  background-size: 200% 400%;
+  background-position: 200%;
   transition: background-position 275ms ease;
-  font-family: Caranda;
+  font-family: Countryside;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30vh;
 }
 
 h1:hover{
@@ -123,4 +110,8 @@ h1:hover{
 @font-face {
   font-family: Caranda;
   src: url("../src/media/fonts/CarandaPersonalUse-qLOq.ttf");
+}
+@font-face {
+  font-family: Countryside;
+  src: url("../src/media/fonts/CountrysideTwo-r9WO.ttf");
 }
