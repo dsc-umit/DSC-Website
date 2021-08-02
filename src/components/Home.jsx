@@ -14,10 +14,10 @@ const Home = () => {
                         <h1>We inspire learning</h1>
                     </div>
                 </div>
-                <div class="homeright">
-                    <div class="tilt">
-                        <img alt="girl-graphic" src={about}></img>
-                    </div>
+            </div>
+            <div class="homeright">
+                <div class="item">
+                    <img alt= "yaha svg aana chahiye tha"src={about} ></img>
                 </div>
             </div>
         </div>
