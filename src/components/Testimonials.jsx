@@ -1,13 +1,14 @@
 import React from 'react'
+import './testimonials.css'
 import { Col } from 'react-bootstrap'
 
 const Testimonials = () => {
     return (
         <div id = "tests">
-            <h3 style={{ textAlign: "center" }}>Testimonials</h3>
+            <h3 className="lead testimonials-h" style={{ textAlign: "center" }}>Testimonials</h3>
             <div class="container" style={{ disply: "block" }}>
                 <Col lg={12}>
-                    <div class="card w-100" style={{ marginLeft: "-5px" }} >
+                    <div class="card w-100" style={{ marginLeft: "0px", marginTop: "-5px" }} >
 
                         <div class="card-header " style={{ textAlign: 'center' }} >
                             <b>Kiran Singh</b>
@@ -30,7 +31,7 @@ const Testimonials = () => {
 
                     </div>
 
-                    <div class="card w-100" style={{ marginLeft: "-5px", marginTop: "-5px" }}>
+                    <div class="card w-100" style={{ marginLeft: "0px", marginTop: "-5px" }}>
                         <div class="card-header " style={{ textAlign: 'center' }} >
                             <b>Vaishnavi Desai</b>
                         </div>
@@ -46,12 +47,12 @@ const Testimonials = () => {
 
                         </div>
                     </div>
-                    <div class="card w-100" style={{ marginLeft: "-5px", marginTop: "-5px" }}>
+                    <div class="card w-100" style={{ marginLeft: "0px", marginTop: "-5px" }}>
                         <div class="card-header " style={{ textAlign: 'center' }} >
                             <b>Sanjana Joshi</b>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Former DSC Lead</h5>
+                            <h5 class="card-title">Former Core Member</h5>
                             <p class="card-text">My experience with DSC has been quite vivid, I was exposed to various communities where I
                                 could learn and grow. It helped me in boosting my confidence and knowledge about the trending
                                 technologies in the market. Also, It gave me an opportunity to endure my technical capabilities

@@ -1,0 +1,30 @@
+.blogs{
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    margin-right: 3em;
+ }
+.cardrow1
+{
+    align-items: center;
+    flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:2em;
+}
+
+.cardrow2
+{
+    align-items: center;
+    flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:2em;
+}
+.cardrow3
+{
+    align-items: center;
+    flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:2em;
+}
