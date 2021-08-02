@@ -16,13 +16,10 @@ const Team = () => {
             <h2>Team</h2>
             <Row className='card-row-1'>
             <Card style={{ width: '21rem' }} className='card1'>
-            
-                <Card.Body>
-                
+            <Card.Body>
                 <Col xs={2} md={2} >
                     <Image src={tejaswi} className='picture' roundedCircle />
                 </Col>
-                
                 <center>
                 <br></br>
                 <Card.Title>Tejaswi Chaudhari</Card.Title>
