@@ -1,0 +1,35 @@
+h3{
+    color: #34a853 !important;
+    padding-top: 50px;
+}
+
+Container{
+    margin:10px;
+}
+
+.about{
+    max-height: 400px;
+    width: auto;
+}
+
+@media screen and (max-width: 767px){
+    .about{
+        display: none;
+    }
+
+    .umit{
+        display: none;
+    }
+}
+
+.umit{
+    
+    /* height: 25rem;
+    padding-left: 20px;  */
+    max-height: 300px;
+    
+}
+.lead{
+    font-size: x-large;
+    font-weight: bolder;
+}

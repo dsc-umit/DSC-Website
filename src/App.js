@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route exact path="/">    
+      <Route exact path="/">
           <Header />
           <Home />
           <About />
