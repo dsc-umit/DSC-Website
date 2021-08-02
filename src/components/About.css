@@ -1,0 +1,32 @@
+Container{
+    margin: 10px;
+}
+
+.about{
+    max-height: 400px;
+    width: auto;
+}
+
+@media screen and (max-width: 767px){
+    .about{
+        display: none;
+    }
+
+    .umit{
+        display: none;
+    }
+}
+
+.umit{
+    max-height: 300px;
+    width: auto;
+}
+
+.lead{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.about-h{
+    color: #34A853;
+}
