@@ -8,7 +8,7 @@ import "./Events.css"
 
 const Events = () => {
     return (
-        <Container>
+        <Container id="events">
             <Row>
                 <h2 class="section-title">Events &amp; Workshops</h2>
                 <p class="section">Click <a href="https://gdsc.community.dev/usha-mittal-institute-of-technology/" target="_blank" rel="noopener noreferrer">here</a> to know about our upcoming events!</p>

@@ -2,11 +2,11 @@ import React from 'react'
 import {Container, Image, Row, Col} from 'react-bootstrap';
 import img1 from '../media/3.png';
 import img2 from '../media/7.png';
-import "./about.css";
+import "./About.css";
 
 const About = () => {
     return (
-        <Container>
+        <Container id="about">
             <Row className="about-1">
                 <Col xs={12} lg={7} className="col1">
                     <h3 className="lead about-h">About Google Developer Student Club</h3>

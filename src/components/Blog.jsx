@@ -4,7 +4,7 @@ import {Row, Col, Button, Card} from 'react-bootstrap'
 
 const Blog = () => {
     return (
-    <div class='blogs'>
+    <div class='blogs' id="blog">
         <h2>Blogs</h2>
         <Row className='cardrow1'>
     <Card style={{ width: '21rem' }}>
