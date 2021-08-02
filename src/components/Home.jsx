@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
             </div>
             <div class="homeright">
-                <div class="tilt">
+                <div class="item">
                     <img alt= "yaha svg aana chahiye tha"src={about} ></img>
                 </div>
             </div>
