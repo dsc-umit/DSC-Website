@@ -1,8 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'font-awesome/css/font-awesome.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Header, Home, Contact,Team } from './components'
+import { Header, Home, Testimonials, Contact, Team, Blog} from './components'
 
 function App() {
   return (
@@ -13,12 +13,20 @@ function App() {
           <Header />
           <Home />
           <Team />
+          <Testimonials/>
+          <Blog/>
           <Contact />
         </Route>
        
       </Router>
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-      <div class="elfsight-app-466f64d1-ed62-479b-b4b5-a9c5acf673c3"></div>
+      <a
+        href="https://wa.me/+917977244710"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
     </div>
   );
 }

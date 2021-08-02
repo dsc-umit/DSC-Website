@@ -17,9 +17,7 @@ h2{
   justify-content: center;
   margin-bottom:2em;
 }
-.social:hover{
-    color:#FBBC04 !important;
-}
+
 .card-row-3{
     /*padding-left: 7em;
     padding-right: 6em;*/
@@ -29,10 +27,18 @@ h2{
   margin-bottom:2em;
 }
 .card{
-   
-    margin-right: 3em;
-    
+   margin-right: 3em;
 }
+.social{
+  border: none;
+}
+.social:hover{
+      background-color: #ffffff;
+      border-width: 1px;
+      color: #ffffff;
+      text-shadow:50px;
+  }
+
 .card1{
   width:10em;
   
