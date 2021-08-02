@@ -48,7 +48,6 @@ const Contact = () => {
     return (
         <div className="contact">
             <br></br>
-            <hr></hr>
             <Container>
                 <h2 className="lead contact-h">Contact us</h2>
                 <Row>
