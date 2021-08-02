@@ -1,0 +1,11 @@
+.link {
+    margin-right: 20px;
+}
+.link:hover {
+    color: #EA4335 !important;
+}
+.main {
+    background-color: white; 
+    padding-top: 1rem;
+    box-shadow: 0 0px 12px 0px gray;
+}
