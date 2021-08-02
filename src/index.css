@@ -23,6 +23,8 @@ code {
   /* background-color: aquamarine; */
   height:100vh;
   width:100vw;
+  /* max-width: 120px; */
+  min-height: 100vh;
 }
 
 .homeup
@@ -78,7 +80,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 400%;
-  background-position: 200%;
+  background-position: 100%;
   transition: background-position 275ms ease;
   font-family: Countryside;
   margin: 0;
@@ -114,4 +116,48 @@ h1:hover{
 @font-face {
   font-family: Countryside;
   src: url("../src/media/fonts/CountrysideTwo-r9WO.ttf");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeleft img{
+ margin:10% ;
+}
+.homeright img{
+  height: 50%;
+  width:70%;
+}
+@media screen and (max-width: 415px){
+  .homeup {
+    flex-direction: column;
+    height: 20vh;
+  }
+
+  .homeup h5{
+    font-size: 70%;
+  }
+
+  .homedown{
+    width: 100vw;
+  }
+  .homeup h1{
+    font-size: 150%;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    width: 100vw;
+  }
+
+  .homeleft img{
+    height: 20%;
+
+  }
+
+  .homeright img{
+    width: 60vw;
+  }
+
 }
