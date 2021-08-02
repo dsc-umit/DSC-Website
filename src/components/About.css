@@ -1,5 +1,5 @@
 h3{
-    color: #34a853;
+    color: #34a853 !important;
     padding-top: 50px;
 }
 
@@ -14,8 +14,9 @@ Container{
 }
 
 .umit{
-    height:350px;
-    width:520px;
+    /* height:350px;
+    width:520px; */
+    height: 25rem;
     padding-left: 20px;
 }
 .lead{

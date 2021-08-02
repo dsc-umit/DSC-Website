@@ -23,9 +23,13 @@ const About = () => {
                <Image className="about" src={img1} alt="about img" fluid/>
             </Col>
         </Row>
+        <br/>
+        <br/>
         <Row>
             <Col xs={12} md={6} className='col1'>
+                <center>
                <Image className="umit" src={img2} alt="about img" fluid/>
+               </center>
             </Col>
             <Col>
                 <h3 className="lead">About GDSC-UMIT</h3>
