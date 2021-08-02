@@ -1,0 +1,24 @@
+h3{
+    color: #34a853;
+    padding-top: 50px;
+}
+
+Container{
+    margin:10px;
+}
+
+.about{
+    height:400px;
+    width:550px;
+    padding-left: 80px;
+}
+
+.umit{
+    height:350px;
+    width:520px;
+    padding-left: 20px;
+}
+.lead{
+    font-size: x-large;
+    font-weight: bolder;
+}
