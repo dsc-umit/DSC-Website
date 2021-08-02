@@ -1,13 +1,12 @@
 import React from 'react'
 import {Row, Col, Button, Card} from 'react-bootstrap'
-import sanskriti from '../media/sk.jpg';
 
 
 const Blog = () => {
     return (
     <div class='blogs'>
         <h2>Blogs</h2>
-        <Row className='card-row-1'>
+        <Row className='cardrow1'>
     <Card style={{ width: '21rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
@@ -28,7 +27,7 @@ const Blog = () => {
   </Card.Body>
 </Card>
 </Row>
-<Row className='card-row-2'>
+<Row className='cardrow2'>
 <Card style={{ width: '21rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
@@ -52,7 +51,7 @@ const Blog = () => {
   </Card.Body>
 </Card>
 </Row>
-<Row className='card-row-3'>
+<Row className='cardrow3'>
 <Card style={{ width: '21rem' }}>
   <Card.Img variant="top" src="holder.js/100px180" />
   <Card.Body>
