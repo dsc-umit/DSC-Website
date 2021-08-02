@@ -68,29 +68,13 @@ h1:hover{
     background-position: 0 100%;
 }
 
-.tilt {
-  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-}
- 
-.tilt:hover {
-  -webkit-transform: rotate(-10deg);
-     -moz-transform: rotate(-10deg);
-       -o-transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-}
-
 .homeleft img{
  margin:10% ;
 }
 
 .homeright img{
-  height: 50%;
-  width:70%;
+  height: 30%;
+  width: 50%;
 }
 
 @media screen and (max-width: 415px){
@@ -136,15 +120,15 @@ h5{
 }
 
 .item:before{
-    background-image: linear-gradient(-180deg, #ffffff 0%, #ffffff 97%);
-    content: '';
-    height: 100%;
-    position: absolute;
-    transition: all .2s;
-    transition-delay: .2s;
-    transform: translateY(0px) translateX(0px);
-    width: 100%;
-    z-index: -1;
+  background-image: linear-gradient(-180deg, #ffffff 0%, #ffffff 97%);
+  content: '';
+  height: 100%;
+  position: absolute;
+  transition: all .2s;
+  transition-delay: .2s;
+  transform: translateY(0px) translateX(0px);
+  width: 100%;
+  z-index: -1;
   }
 
   .item:hover{
@@ -152,15 +136,14 @@ h5{
     animation-duration: .4s;
   }
 
-  
-    .item:before :hover{
-      animation: slick-hover-2 3s .4s linear infinite;
-      transform: translateY(-20px) translateX(-20px);
-    }
-    .item:after:hover{
-      animation: slick-hover 3s .4s linear infinite reverse;
-      transform: translateY(20px) translateX(20px);
-    }
+  .item:before :hover{
+    animation: slick-hover-2 3s .4s linear infinite;
+    transform: translateY(-20px) translateX(-20px);
+  }
+  .item:after:hover{
+    animation: slick-hover 3s .4s linear infinite reverse;
+    transform: translateY(20px) translateX(20px);
+  }
 
 @keyframes hoverPop {
   0%, 100% {

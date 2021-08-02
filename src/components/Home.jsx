@@ -17,7 +17,7 @@ const Home = () => {
             </div>
             <div class="homeright">
                 <div class="item">
-                    <img alt= "yaha svg aana chahiye tha"src={about} ></img>
+                    <img alt= "girl" src={about} ></img>
                 </div>
             </div>
         </div>
