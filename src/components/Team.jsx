@@ -95,7 +95,7 @@ const Team = () => {
                 </Row>
 
                 <Row className='card-row-3'>
-            <Card style={{ width: '21rem' }} className='card2'>
+            <Card style={{ width: '21rem' }} className='card5'>
                 
                 <Card.Body>
                 <Col xs={6} md={4}>
@@ -114,7 +114,7 @@ const Team = () => {
                 </Card.Body>
                 </Card>
 
-                <Card style={{ width: '21rem' }} className='card3'> 
+                <Card style={{ width: '21rem' }} className='card6'> 
                 <Card.Body>
                 
                 <Col xs={6} md={4}>
@@ -133,7 +133,7 @@ const Team = () => {
                 </Card.Body>
                     </Card>
 
-                    <Card style={{ width: '21rem' }} className='card4'>
+                    <Card style={{ width: '21rem' }} className='card7'>
                 <Card.Body>
                 
                 <Col xs={6} md={4}>
