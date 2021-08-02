@@ -1,0 +1,29 @@
+.about-container-1{
+    margin-top: 80px;
+}
+
+.about-container-2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about-h{
+    color: #34A853;
+}
+
+.about-1{
+    max-height: 400px;
+    width: auto;
+}
+
+.about-2{
+    max-height: 300px;
+    width: auto;
+}
+
+@media screen and (max-width: 767px){
+    .about-1{
+        max-height: 330px;
+        height: auto;
+    }
+}

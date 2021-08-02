@@ -1,3 +1,7 @@
+.App{
+    overflow: hidden;
+}
+
 .whatsapp_float {
     position: fixed;
     width: 60px;
