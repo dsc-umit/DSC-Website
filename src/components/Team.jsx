@@ -9,7 +9,7 @@ import tejashri from '../media/Tejashri.jpg';
 import shruti from '../media/Shruti.jpg'
 import {Card,Col,Image,Row} from 'react-bootstrap'
 import { SiGithub } from 'react-icons/si';
-import {FaLinkedin} from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
 const Team = () => {
     return (
         <div>
