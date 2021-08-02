@@ -50,11 +50,10 @@ const Contact = () => {
             <br></br>
             <hr></hr>
             <Container>
-                <h2 className="lead">Contact us</h2>
-                <small>We are open for collaborations!</small>
+                <h2 className="lead contact-h">Contact us</h2>
                 <Row>
                     <Col lg={6} sm={12} xs={12}>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.483121923021!2d72.82830744981766!3d19.086450178517236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x202d318309cd0d56!2sUsha%20Mittal%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1627838446541!5m2!1sen!2sin" width="100%" style={{border:0}} allowfullscreen="" loading="lazy" className="contact-map"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.483121923021!2d72.82830744981766!3d19.086450178517236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x202d318309cd0d56!2sUsha%20Mittal%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1627838446541!5m2!1sen!2sin" title="Location" width="100%" style={{border:0}} allowfullscreen="" loading="lazy" className="contact-map"></iframe>
                         <Row>
                             <Col lg={1} sm={2} xs={2}>
                                 <FontAwesomeIcon className="contact-icon" size="lg" icon={faAddressCard}/>
@@ -84,20 +83,20 @@ const Contact = () => {
                         <Form onSubmit={e => onSubmit(e)}>
                             <Row className="contact-form">
                                 <Form.Group as={Col}>
-                                    <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="contact-form-box" placeholder="Your Name" />
+                                    <Form.Control onChange={e => onInputChange(e)} value={templateParams.from_name} name="from_name" className="contact-form-box" placeholder="Your Name" required />
                                 </Form.Group>
 
                                 <Form.Group as={Col}>
-                                    <Form.Control onChange={e => onInputChange(e)} value={templateParams.email_id} name="email_id" className="contact-form-box" type="email" placeholder="Your Email-id" />
+                                    <Form.Control onChange={e => onInputChange(e)} value={templateParams.email_id} name="email_id" className="contact-form-box" type="email" placeholder="Your Email-id" required />
                                 </Form.Group>
                             </Row>
 
                             <Form.Group className="contact-form">
-                                <Form.Control onChange={e => onInputChange(e)} value={templateParams.subject} name="subject" className="contact-form-box" placeholder="Enter the Subject" />
+                                <Form.Control onChange={e => onInputChange(e)} value={templateParams.subject} name="subject" className="contact-form-box" placeholder="Enter the Subject" required />
                             </Form.Group>
 
                             <Form.Group className="contact-form">
-                                <Form.Control onChange={e => onInputChange(e)} value={templateParams.message} name="message" className="contact-form-box" placeholder="Write your message..." as="textarea" rows={8} />
+                                <Form.Control onChange={e => onInputChange(e)} value={templateParams.message} name="message" className="contact-form-box" placeholder="Write your message..." as="textarea" rows={8} required />
                             </Form.Group>
                             <Button className="contact-button" type="submit">
                                 Submit
@@ -129,7 +128,7 @@ const Contact = () => {
                         <Button className="button-socials"><FontAwesomeIcon className="contact-socials" size="lg" icon={faFacebook}/></Button>
                     </a>
                 </div>
-                <div align="center">
+                <div className="end" align="center">
                 <small align="center">Made with <FontAwesomeIcon color="red" icon={faHeart}/> by Team DSC UMIT 2021'-22'<br></br><i>Illustrations by freepik, unDraw.io</i></small>
                 </div>
             </Container>

@@ -2,18 +2,18 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Header, Home, Testimonials, Contact, Team, Blog} from './components'
+import { Header, Home, Testimonials, Contact, About, Team, Blog } from './components'
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Route exact path="/">
-         
           <Header />
           <Home />
+          <About />
+          <Testimonials />
           <Team />
-          <Testimonials/>
           <Blog/>
           <Contact />
         </Route>
