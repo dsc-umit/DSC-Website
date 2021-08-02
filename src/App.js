@@ -16,7 +16,7 @@ function App() {
         </Route>
       </Router>
       <a
-        href="https://wa.me/91797744710"
+        href="https://wa.me/+91797744710"
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
