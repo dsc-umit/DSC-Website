@@ -1,6 +1,5 @@
 import React from 'react'
 import {Row, Col, Button, Card} from 'react-bootstrap'
-import sanskriti from '../media/sk.jpg';
 
 
 const Blog = () => {
