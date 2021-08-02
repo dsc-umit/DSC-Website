@@ -11,17 +11,17 @@ const Events = () => {
         <Container>
             <Row>
                 <h2 class="section-title">Events &amp; Workshops</h2>
-                <p class="section">Click <a href="https://dsc.community.dev/usha-mittal-institute-of-technology/">here</a> to know about our upcoming events!</p>
+                <p class="section">Click <a href="https://gdsc.community.dev/usha-mittal-institute-of-technology/" target="_blank" rel="noopener noreferrer">here</a> to know about our upcoming events!</p>
                 <p class="section-subtitle">Come learn, share and connect with us in person.</p>
                 <CardGroup>
                     <Col lg={4}>
-                        <Container >
-                            <Card class="card">
+                        <Container>
+                            <Card class="events-card">
                                 <Card.Img class="img-fluid" alt="100%x280" variant="top" src={event1} />
                                 <Card.Body>
-                                    <h4 class="card-title">#30DAYS:Web Development</h4>
+                                    <h4 class="card-title">30 Days of Web Development</h4>
                                     <Card.Text>
-                                        Date and Time: 19th September 2021 4pm Onwards
+                                        19th September 2021, 4pm Onwards
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -29,12 +29,12 @@ const Events = () => {
                     </Col>
                     <Col lg={4}>
                         <Container>
-                            <Card class="card">
+                            <Card class="events-card">
                                 <Card.Img class="img-fluid" alt="100%x280" variant="top" src={event2} />
                                 <Card.Body>
-                                    <h4 class="card-title">Hack The Space: 48 hours</h4>
+                                    <h4 class="card-title">Hack The Space [Hackathon]</h4>
                                     <Card.Text>
-                                        Date and Time: 27th November 2021 4pm Onwards
+                                        27th November 2021, 4pm Onwards
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -42,12 +42,12 @@ const Events = () => {
                     </Col>
                     <Col lg={4}>
                         <Container>
-                            <Card class="card">
+                            <Card class="events-card">
                                 <Card.Img class="img-fluid" alt="100%x280" variant="top" src={event3} />
                                 <Card.Body>
-                                    <h4 class="card-title">Solution Challenge</h4>
+                                    <h4 class="card-title">Solution Challenge [Intro Session]</h4>
                                     <Card.Text>
-                                        Date and Time: 27th November 2021 4pm Onwards
+                                        27th November 2021, 4pm Onwards
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
