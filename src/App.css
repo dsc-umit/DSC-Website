@@ -3,7 +3,8 @@
     width: 60px;
     height: 60px;
     bottom: 40px;
-    right: 40px;
+    /* right: 40px; */
+    left: 35px;
     background-color: #25d366;
     color: #FFF;
     border-radius: 50px;
@@ -17,6 +18,16 @@
     margin-top: 16px;
 }
 
+.whatsapp-icon:hover {
+    color: white !important;
+    cursor: pointer;
+}
+
+.whatsapp_float:hover {
+    color: white !important;
+    cursor: pointer;
+}
+
 /* for mobile */
 @media screen and (max-width: 767px) {
     .whatsapp-icon {
@@ -27,7 +38,8 @@
         width: 40px;
         height: 40px;
         bottom: 20px;
-        right: 10px;
+        /* right: 10px; */
+        left: 9px;
         font-size: 22px;
     }
 }
