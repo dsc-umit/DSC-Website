@@ -76,4 +76,8 @@ h2:after {
     .a-socials{
         margin: 2px;
     }
+
+    .contact-icon{
+        margin-left: 20px;
+    }
 }

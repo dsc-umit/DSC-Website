@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import dsc from '../media/dsc.jpeg'
+import dsc from '../media/dsc.png'
 import about from '../media/about.svg'
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
         <div class="home">
             <div class="homeup">
                 <div class="homeleft">
-                    <img alt="logo" src={dsc}></img>
+                    <img alt="logo" src={dsc} className="homeleftimg"></img>
                     <h5>Powered by Google Developers</h5>
                     <div class="homedown">
                         <h1>We inspire learning</h1>
