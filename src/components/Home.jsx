@@ -5,7 +5,7 @@ import about from '../media/about.svg'
 
 const Home = () => {
     return (
-        <div class="home">
+        <div class="home" id="home">
             <div class="homeup">
                 <div class="homeleft">
                     <img alt="logo" src={dsc} className="homeleftimg"></img>

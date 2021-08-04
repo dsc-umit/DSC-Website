@@ -11,7 +11,7 @@ import blog6 from '../media/Blog-6.jpg';
 
 const Blog = () => {
     return (
-    <div class='blogs'>
+    <div class='blogs' id="blog">
       <Container align='center'>
         <br></br>
         <h2 className='blog'>Blogs</h2>
@@ -24,7 +24,11 @@ const Blog = () => {
                 <br></br>
                 <Card.Title>Blockchain : What is it and how is it different from a Hyperledger?</Card.Title>
                 <Card.Text>Author : Ranjini Kishen Kumar</Card.Text>
-                <Button variant="primary" className='readmore'>Read More</Button>
+                <a href="https://medium.com/dsc-umit/blockchain-what-is-it-and-how-is-it-different-from-a-hyperledger-8bb5e2e452eb" 
+                  style={{color: "white", textDecoration: "none"}} 
+                  target="_blank">
+                    <Button variant="primary" className='readmore'>Read More</Button>
+                </a>
               </Card.Body>
           </Card>
           </Col>
@@ -38,7 +42,11 @@ const Blog = () => {
                   <Card.Text>
                   Author : Aanchal Mishra
                   </Card.Text>
-                  <Button variant="primary">Read More</Button>
+                  <a href="https://medium.com/dsc-umit/machine-learning-algorithms-linear-regression-b8c5fc582257" 
+                    style={{color: "white", textDecoration: "none"}} 
+                    target="_blank">
+                      <Button variant="primary" className='readmore'>Read More</Button>
+                  </a>
               </Card.Body>
             </Card>
             </Col>
@@ -54,7 +62,11 @@ const Blog = () => {
                   <Card.Text>
                   Author : Tejaswi Chaudhari
                   </Card.Text>
-                  <Button variant="primary" className='readmore'>Read More</Button>
+                  <a href="https://medium.com/dsc-umit/the-famous-turing-test-91b8de154a12" 
+                    style={{color: "white", textDecoration: "none"}} 
+                    target="_blank">
+                      <Button variant="primary" className='readmore'>Read More</Button>
+                  </a>
               </Card.Body>
             </Card>
           </Col>
@@ -68,7 +80,11 @@ const Blog = () => {
                   <Card.Text>
                   Author : Jhanvi Desai
                   </Card.Text>
-                  <Button variant="primary">Read More</Button>
+                  <a href="https://medium.com/dsc-umit/symmetric-and-asymmetric-encryption-1004ad5fd61a" 
+                    style={{color: "white", textDecoration: "none"}} 
+                    target="_blank">
+                      <Button variant="primary" className='readmore'>Read More</Button>
+                  </a>
               </Card.Body>
             </Card>
             </Col>
@@ -84,7 +100,11 @@ const Blog = () => {
                 <Card.Text>
                 Author : Ranjini Kishen Kumar
                 </Card.Text>
-                <Button variant="primary" className='readmore'>Read More</Button>
+                <a href="https://medium.com/dsc-umit/augmented-reality-ar-is-one-of-the-greatest-innovation-drifts-at-this-moment-and-its-just-3910aa4131e6" 
+                  style={{color: "white", textDecoration: "none"}} 
+                  target="_blank">
+                    <Button variant="primary" className='readmore'>Read More</Button>
+                </a>
             </Card.Body>
           </Card>
           </Col>
@@ -98,7 +118,11 @@ const Blog = () => {
                 <Card.Text>
                 Author : Sakshi Sanjay Grover
                 </Card.Text>
-                <Button className='readmore' variant="primary">Read More</Button>
+                <a href="https://medium.com/dsc-umit/the-invisibility-cloak-using-opencv-4be6fc71f7b3" 
+                  style={{color: "white", textDecoration: "none"}} 
+                  target="_blank">
+                    <Button variant="primary" className='readmore'>Read More</Button>
+                </a>
             </Card.Body>
           </Card>
           </Col>
