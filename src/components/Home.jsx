@@ -1,26 +1,25 @@
 import React from 'react'
-import dsc from '../media/dsc.jpeg'
+import './Home.css'
+import dsc from '../media/dsc.png'
 import about from '../media/about.svg'
 
 const Home = () => {
     return (
         <div class="home">
-            {/* <h1>how u doin'</h1> */}
             <div class="homeup">
-            <div class="homeleft">
-                <img alt= "yaha img aana chahiye tha" src={dsc} height="35%" ></img>
-                <h5> Powered by Google Developers</h5>
-            </div>
-            <div class="homeright">
-                <div class="tilt">
-                    <img alt= "yaha svg aana chahiye tha"src={about} height="50%" width="70%"></img>
+                <div class="homeleft">
+                    <img alt="logo" src={dsc} className="homeleftimg"></img>
+                    <h5>Powered by Google Developers</h5>
+                    <div class="homedown">
+                        <h1>We inspire learning</h1>
+                    </div>
                 </div>
             </div>
+            <div class="homeright">
+                <div class="item">
+                    <img alt= "girl" src={about} ></img>
+                </div>
             </div>
-            <div class="homedown">
-            <h1>We inspire learning</h1>
-            </div>
-            
         </div>
     )
 }
