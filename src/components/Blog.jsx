@@ -26,7 +26,7 @@ const Blog = () => {
                 <Card.Text>Author : Ranjini Kishen Kumar</Card.Text>
                 <a href="https://medium.com/dsc-umit/blockchain-what-is-it-and-how-is-it-different-from-a-hyperledger-8bb5e2e452eb" 
                   style={{color: "white", textDecoration: "none"}} 
-                  target="_blank">
+                  target="_blank" rel="noreferrer noopener">
                     <Button variant="primary" className='readmore'>Read More</Button>
                 </a>
               </Card.Body>
@@ -44,7 +44,7 @@ const Blog = () => {
                   </Card.Text>
                   <a href="https://medium.com/dsc-umit/machine-learning-algorithms-linear-regression-b8c5fc582257" 
                     style={{color: "white", textDecoration: "none"}} 
-                    target="_blank">
+                    target="_blank" rel="noreferrer noopener">
                       <Button variant="primary" className='readmore'>Read More</Button>
                   </a>
               </Card.Body>
@@ -64,7 +64,7 @@ const Blog = () => {
                   </Card.Text>
                   <a href="https://medium.com/dsc-umit/the-famous-turing-test-91b8de154a12" 
                     style={{color: "white", textDecoration: "none"}} 
-                    target="_blank">
+                    target="_blank" rel="noreferrer noopener">
                       <Button variant="primary" className='readmore'>Read More</Button>
                   </a>
               </Card.Body>
@@ -82,7 +82,7 @@ const Blog = () => {
                   </Card.Text>
                   <a href="https://medium.com/dsc-umit/symmetric-and-asymmetric-encryption-1004ad5fd61a" 
                     style={{color: "white", textDecoration: "none"}} 
-                    target="_blank">
+                    target="_blank" rel="noreferrer noopener">
                       <Button variant="primary" className='readmore'>Read More</Button>
                   </a>
               </Card.Body>
@@ -102,7 +102,7 @@ const Blog = () => {
                 </Card.Text>
                 <a href="https://medium.com/dsc-umit/augmented-reality-ar-is-one-of-the-greatest-innovation-drifts-at-this-moment-and-its-just-3910aa4131e6" 
                   style={{color: "white", textDecoration: "none"}} 
-                  target="_blank">
+                  target="_blank" rel="noreferrer noopener">
                     <Button variant="primary" className='readmore'>Read More</Button>
                 </a>
             </Card.Body>
@@ -120,7 +120,7 @@ const Blog = () => {
                 </Card.Text>
                 <a href="https://medium.com/dsc-umit/the-invisibility-cloak-using-opencv-4be6fc71f7b3" 
                   style={{color: "white", textDecoration: "none"}} 
-                  target="_blank">
+                  target="_blank" rel="noreferrer noopener">
                     <Button variant="primary" className='readmore'>Read More</Button>
                 </a>
             </Card.Body>
