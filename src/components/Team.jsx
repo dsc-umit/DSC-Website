@@ -4,7 +4,7 @@ import tejaswi from '../media/Tejaswi.jpg';
 import jhanvi from '../media/Jhanvi.jpg';
 import manali from '../media/Manali.jpg';
 import sanskriti from '../media/sk.jpg';
-import irit from '../media/Irit.jpg';
+import irit from '../media/Irit.jpeg';
 import tejashri from '../media/Tejashri.jpg';
 import shruti from '../media/Shruti.jpg'
 import { Card, Col, Image, Row, Container } from 'react-bootstrap'
