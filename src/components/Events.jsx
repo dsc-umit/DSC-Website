@@ -1,8 +1,10 @@
 import React from 'react'
-import { Card, Button, CardGroup, Container, Row, Col } from 'react-bootstrap'
-import event1 from '../media/event1.jpeg'
-import event2 from '../media/event2.jpeg'
-import event3 from '../media/event3.jpeg'
+import { Container, Row, Image} from 'react-bootstrap'
+// import { Card, Button, CardGroup, Container, Row, Col } from 'react-bootstrap'
+// import event1 from '../media/event1.jpeg'
+// import event2 from '../media/event2.jpeg'
+// import event3 from '../media/event3.jpeg'
+import stayTuned from '../media/Stay-tuned.png'
 
 import "./Events.css"
 
@@ -13,7 +15,8 @@ const Events = () => {
                 <h2 class="section-title">Events &amp; Workshops</h2>
                 <p class="section">Click <a href="https://gdsc.community.dev/usha-mittal-institute-of-technology/" className='alink' target="_blank" rel="noopener noreferrer">here</a> to know about our upcoming events!
                 <br></br>Come learn, share and connect with us in person.</p>
-                <CardGroup>
+                <Image src={stayTuned} className="stay-tuned" alt="coming-soon" align="center" />
+                {/* <CardGroup>
                     <Col lg={4}>
                         <Container className='event1'>
                             <Card class="events-card">
@@ -53,7 +56,7 @@ const Events = () => {
                             </Card>
                         </Container>
                     </Col>
-                </CardGroup>
+                </CardGroup> */}
             </Row>
         </Container>
     )

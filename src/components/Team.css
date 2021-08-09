@@ -4,8 +4,14 @@
     font-size:xx-large;
 }   
 
+.team-h{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .card-row-1{
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .card-row-2{
