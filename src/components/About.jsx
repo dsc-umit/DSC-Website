@@ -7,6 +7,7 @@ import "./About.css";
 const About = () => {
     return (
         <Container id="about">
+            <br />
             <Row className="about-1">
                 <Col xs={12} lg={7} className="col1">
                     <h3 className="lead about-h">About Google Developer Student Club</h3>
