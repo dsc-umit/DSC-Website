@@ -1,4 +1,4 @@
-.testimonials-h{
+/* .testimonials-h{
     color: #FBBC04;
 }
 
@@ -13,4 +13,21 @@ b{
 .card-text{
     font-size: medium;
     color: #7e7e7e;
+} */
+
+@media (max-width: 699px)
+
+{
+    .sc-bkzZxe jsXVGd testimonial-list {
+        display: grid;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    ol, ul {
+        list-style: none;
+    }
 }
+

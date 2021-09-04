@@ -1,9 +1,10 @@
 import React from 'react'
-import './testimonials.css'
-import { Col } from 'react-bootstrap'
+// import './testimonials.css'
+import { Col ,Container} from 'react-bootstrap'
 
 const Testimonials = () => {
     return (
+       
         <div id = "tests">
             <h2 className="testimonials-h" style={{ textAlign: "center" }}>Testimonials</h2>
             <div class="container" style={{ disply: "block" }}>

@@ -1,6 +1,8 @@
 .section-title {
   color: #4285F4;
 }
+
+.carousel .control-arrow{ opacity: 8 !important; }
   
 .img-fluid {
   max-width: 25em;
@@ -44,5 +46,10 @@
 @media screen and (max-width: 767px){
   .section{
     margin: 0;
+  }
+
+  .Col{
+    margin-left: -150px;
+   align-items: flex-start;
   }
 }
