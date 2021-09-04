@@ -6,6 +6,7 @@ const Testimonials = () => {
     return (
        
         <div id = "tests">
+            <br /> <br />
             <h2 className="testimonials-h" style={{ textAlign: "center" }}>Testimonials</h2>
             <div class="container" style={{ disply: "block" }}>
                 <Col lg={12}>

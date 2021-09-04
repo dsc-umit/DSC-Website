@@ -13,6 +13,7 @@ import { FaLinkedin } from 'react-icons/fa'
 const Team = () => {
     return (
         <div id="team">
+            <br /> <br />
         <Container>
             <h2 className='team'>Team</h2>
             <center>

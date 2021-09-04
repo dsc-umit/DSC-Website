@@ -12,6 +12,7 @@ import blog6 from '../media/Blog-6.jpg';
 const Blog = () => {
     return (
     <div class='blogs' id="blog">
+      <br /> <br />
       <Container align='center'>
         <br></br>
         <h2 className='blog'>Blogs</h2>
