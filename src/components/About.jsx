@@ -5,10 +5,9 @@ import img2 from '../media/7.png';
 import "./About.css";
 
 const About = () => {
-    return (
-        <Container id="about">
+    return (<Container id="about">
             <Row className="about-1">
-                <Col xs={12} lg={7} className="col1">
+                <Col xs={12} lg={6} className="col1">
                     <h3 className="lead about-h">About Google Developer Student Club</h3>
                     <p>Developer Student Clubs are university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community. Opportunities DSCs provide students with :
                     <ul>
@@ -19,7 +18,7 @@ const About = () => {
                     </ul>
                     </p>
                 </Col>
-                <Col lg={5}>
+                <Col lg={6}>
                 <Image className="about" src={img1} alt="about img" fluid/>
                 </Col>
             </Row>
@@ -37,7 +36,7 @@ const About = () => {
                     <br></br>We at DSC UMIT believe in building a strong community where people can learn and grow together. Our goal is to combine new ideas with technical skills to create something innovative.</p>
                 </Col>
             </Row>
-        </Container>
+            </Container>
     )
 }
 

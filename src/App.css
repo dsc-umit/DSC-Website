@@ -1,6 +1,21 @@
-.App{
-    overflow: hidden;
-}
+:root{
+    --bg-color: #ffffff;
+    --txt-color: #000000;
+  }
+  [data-theme = "dark"] {
+    --bg-color: #000000;
+    --txt-color: #ffffff;
+  }
+  .App{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    overflow-x: hidden;
+  }
 
 .whatsapp_float {
     position: fixed;
@@ -48,4 +63,22 @@
         font-size: 22px;
         z-index: 100;
     }
+}
+.link-1{
+    margin-left: 450px;
+}
+
+.link {
+    color: var(--txt-color) !important;
+    margin-right: 20px;
+}
+
+.link:hover {
+    color: #EA4335 !important;
+}
+
+.main {
+    background-color: var(--bg-color); 
+    padding-top: 1rem;
+    box-shadow: 0 0px 12px 0px rgb(155, 149, 149);
 }
