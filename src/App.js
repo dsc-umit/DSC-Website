@@ -38,8 +38,8 @@ function App() {
                   </Navbar.Collapse>
               </Container>
           </Navbar>
-          <Home />
-          <About />
+          <Home mode={mode}/>
+          <About mode={mode}/> 
           <Events />
           <Team />
           <Testimonials />

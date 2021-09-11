@@ -1,3 +1,9 @@
+:root {
+  --bg-color: white;
+}
+[data-theme = "dark"] {
+  --bg-color: black;
+}
 .home{
   display: flex;
   flex-direction: row;
@@ -130,14 +136,14 @@ h5{
 }
 .item{
   align-items: center;
-  background-color: #fff;
+  background-color: var(--bg-color);
   display: flex;
   justify-content: center;
   position: relative;
   z-index: 1000;
 }
 
-.item:before{
+/* .item:before{
   background-image: linear-gradient(-180deg, #ffffff 0%, #ffffff 97%);
   content: '';
   height: 100%;
@@ -147,9 +153,9 @@ h5{
   transform: translateY(0px) translateX(0px);
   width: 100%;
   z-index: -1;
-  }
+  } */
 
-  .item:hover{
+  /* .item:hover{
     animation-name: hoverPop;
     animation-duration: .4s;
   }
@@ -207,4 +213,4 @@ h5{
     transform: translateY(-1px) translateX(15px) }
   100.00% {
     transform: translateY(-20px) translateX(-20px) }
-}
+} */

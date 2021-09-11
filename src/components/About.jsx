@@ -1,10 +1,12 @@
 import React from 'react'
 import {Container, Image, Row, Col} from 'react-bootstrap';
-import img1 from '../media/3.png';
-import img2 from '../media/7.png';
+import about1 from '../media/about1.gif';
+import about2 from '../media/about2.gif';
+import Darkabout2 from '../media/about2-dark.gif';
+import Darkabout1 from '../media/about1-dark.gif';
 import "./About.css";
 
-const About = () => {
+const About = ({mode}) => {
     return (<Container id="about">
             <Row className="about-1">
                 <Col xs={12} lg={6} className="col1">
@@ -19,7 +21,7 @@ const About = () => {
                     </p>
                 </Col>
                 <Col lg={6}>
-                <Image className="about" src={img1} alt="about img" fluid/>
+                <Image className="about" src={mode ? Darkabout1 : about1} alt="about img" fluid/>
                 </Col>
             </Row>
         <br/>
@@ -27,7 +29,7 @@ const About = () => {
             <Row className="about-2">
                 <Col xs={12} lg={4} className='col1'>
                     <center>
-                <Image className="umit" src={img2} alt="about img" fluid/>
+                <Image className="umit" src={mode ? Darkabout2 : about2} alt="about img" fluid/>
                 </center>
                 </Col>
                 <Col lg={8}>
