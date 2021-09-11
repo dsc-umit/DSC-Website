@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import logo from "./media/logo.png";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-import { Home, Testimonials, Contact, About, Events, Team, Blog } from './components'
+import { Home, Testimonials, Contact, About, Events, Team, Blog, ScrollButton } from './components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCloudMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
@@ -45,6 +45,7 @@ function App() {
           <Testimonials />
           <Blog />
           <Contact />
+          <ScrollButton />
         </Route>
 
       </Router>
