@@ -19,31 +19,31 @@ function App() {
       <Router>
         <Route exact path="/">
           <Navbar fixed="top" collapseOnSelect expand="lg" className="main">
-              <Container>
-                  <Navbar.Brand href="#home"><img src={logo} height={40} className="d-inline-block align-top" alt="logo" /></Navbar.Brand>
-                  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                  <Navbar.Collapse id="responsive-navbar-nav">
-                      <Nav>
-                          <Nav.Link className="link link-1" href="#home">Home</Nav.Link>
-                          <Nav.Link className="link" href="#about">About</Nav.Link>
-                          <Nav.Link className="link" href="#events">Events</Nav.Link>
-                          <Nav.Link className="link" href="#team">Team</Nav.Link>
-                          <Nav.Link className="link" href="#tests">Testimonials</Nav.Link>
-                          <Nav.Link className="link" href="#blog">Blog</Nav.Link>
-                          <Nav.Link className="link" href="#contact">Contact</Nav.Link>
-                      </Nav>
-                      <Nav>
-                        <Button className="rounded-pill" variant={mode ? "outline-light" : "outline-dark"} onClick={switchMode}>{mode? <FontAwesomeIcon icon={faSun}/> :  <FontAwesomeIcon icon={faCloudMoon}/> }</Button>
-                      </Nav>
-                  </Navbar.Collapse>
-              </Container>
+            <Container>
+              <Navbar.Brand href="#home"><img src={logo} height={40} className="d-inline-block align-top" alt="logo" /></Navbar.Brand>
+              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav>
+                  <Nav.Link className="link link-1" href="#home">Home</Nav.Link>
+                  <Nav.Link className="link" href="#about">About</Nav.Link>
+                  <Nav.Link className="link" href="#events">Events</Nav.Link>
+                  <Nav.Link className="link" href="#team">Team</Nav.Link>
+                  <Nav.Link className="link" href="#tests">Testimonials</Nav.Link>
+                  <Nav.Link className="link" href="#blog">Blog</Nav.Link>
+                  <Nav.Link className="link" href="#contact">Contact</Nav.Link>
+                </Nav>
+                <Nav>
+                  <Button className="rounded-pill" variant={mode ? "outline-light" : "outline-dark"} onClick={switchMode}>{mode ? <FontAwesomeIcon icon={faSun} /> : <FontAwesomeIcon icon={faCloudMoon} />}</Button>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
           </Navbar>
           <Home />
           <About />
           <Events />
           <Team />
-          <Testimonials />
-          <Blog />
+          <Testimonials mode={mode} />
+          <Blog mode={mode} />
           <Contact />
           <ScrollButton />
         </Route>

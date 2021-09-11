@@ -5,6 +5,23 @@
 .blog-card{
   max-width: 550px;
   margin-bottom:1.5em;
+  
+}
+.blogs-title{
+  color: var(--txt-color);
+}
+.blog-card-view{
+  box-shadow: 0 4px 5px 3px #335bdf !important;
+  color: rgb(10, 10, 10) !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.blog-card-view:hover{
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(19, 111, 248, 0.561) !important;
 }
 
 

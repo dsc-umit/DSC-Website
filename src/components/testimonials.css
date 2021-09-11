@@ -14,7 +14,22 @@ b{
     font-size: medium;
     color: #7e7e7e;
 } */
-
+.testimonials-text,.testimonials-title,.card-header{
+    color: var(--txt-color);
+}
+.card-view{
+    box-shadow: 0 4px 5px 3px #d3e62e !important;
+  color: rgb(10, 10, 10) !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.card-view:hover{
+    transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(189, 192, 9, 0.561) !important;
+}
 @media (max-width: 699px)
 
 {
