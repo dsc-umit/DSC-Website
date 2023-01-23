@@ -1,12 +1,12 @@
 import React from 'react'
 import './Team.css'
-import tejaswi from '../media/Tejaswi.jpg';
-import jhanvi from '../media/Jhanvi.jpg';
-import manali from '../media/Manali.jpg';
-import sanskriti from '../media/sk.jpg';
-import irit from '../media/Irit.jpeg';
-import tejashri from '../media/Tejashri.jpg';
-import shruti from '../media/Shruti.jpg'
+import krithika from '../media/Krithika.jpg';
+import preethika from '../media/Preethika.jpeg';
+import tanvi from '../media/Tanvi.jpg';
+import samruddhi from '../media/Samruddhi.jpg';
+import shweta from '../media/Shweta.jpg';
+import arti from '../media/Arti.jpg';
+
 import { Card, Col, Image, Row, Container } from 'react-bootstrap'
 import { SiGithub } from 'react-icons/si';
 import { FaLinkedin } from 'react-icons/fa'
@@ -23,12 +23,12 @@ const Team = () => {
                     <center>
                         <Card className='card1' align="center">
                             <Card.Body>
-                                <Image src={tejaswi} className='picture' roundedCircle />
-                                <Card.Title>Tejaswi Chaudhari</Card.Title>
+                                <Image src={krithika} className='picture' roundedCircle />
+                                <Card.Title>Krithika Saravanan</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted">GDSC Lead</Card.Subtitle>
                                 <Card.Text className="team-text">"I believe that learning is a stream, and it ought not to stop"</Card.Text>
-                                <Card.Link href="https://github.com/Tejaswi-Chaudhari"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
-                                <Card.Link href="https://www.linkedin.com/in/tejaswi-chaudhari/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://github.com/krithika2411"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://www.linkedin.com/in/krithika-saravanan7/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
                             </Card.Body>
                         </Card>
                     </center>
@@ -38,38 +38,38 @@ const Team = () => {
                     <Col lg={4}>
                         <Card className='card2'>
                             <Card.Body>
-                                <Image src={jhanvi} className='picture' roundedCircle />
-                                <Card.Title>Jhanvi Desai</Card.Title>
+                                <Image src={preethika} className='picture' roundedCircle />
+                                <Card.Title>Preethika K</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted">Core Team Member</Card.Subtitle>
                                 <Card.Text className="team-text">"We both have something in common. You don't know what I'm going to say and neither do I."</Card.Text>
-                                <Card.Link href="https://github.com/JSDesai"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
-                                <Card.Link href="https://www.linkedin.com/in/jhanvi-desai-633428192/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://github.com/Preeti3024"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://www.linkedin.com/in/preethika-k-658872206/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4}>
                         <Card className='card3'>
                             <Card.Body>
-                                <Image src={manali} className='picture' roundedCircle />
-                                <Card.Title>Manali Chaudhari</Card.Title>
+                                <Image src={tanvi} className='picture' roundedCircle />
+                                <Card.Title>Tanvi Mantri</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted">Core Team Member</Card.Subtitle>
                                 <Card.Text className="team-text">"There is no such thing as work life balance, when your work is your life"</Card.Text>
                                 <br></br>
-                                <Card.Link href="https://github.com/Manalipc10"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
-                                <Card.Link href="https://www.linkedin.com/in/manali-chaudhari/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://github.com/tanvimantri"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://www.linkedin.com/in/tanvi-mantri/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4}>
                         <Card className='card4'>
                             <Card.Body>
-                                <Image src={shruti} className='picture' roundedCircle />
-                                <Card.Title>Shruti Gavali</Card.Title>
+                                <Image src={samruddhi} className='picture' roundedCircle />
+                                <Card.Title>Samruddhi Bagave</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted">Core Team Member</Card.Subtitle>
                                 <Card.Text className="team-text">"I believe that you gain more from mistakes than triumphs. So keep trying!"</Card.Text>
                                 <br></br>
-                                <Card.Link href="https://www.linkedin.com/in/shruti-gavali/"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
-                                <Card.Link href="https://github.com/shrutig2110"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://github.com/samrudddhi29"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://www.linkedin.com/in/samruddhi-bagave/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -79,41 +79,29 @@ const Team = () => {
                     <Col lg={4}>
                         <Card className='card5'>
                             <Card.Body>
-                                <Image src={sanskriti} className='picture' roundedCircle />
-                                <Card.Title>Sanskriti Kushik</Card.Title>
+                                <Image src={shweta} className='picture' roundedCircle />
+                                <Card.Title>Shweta Bhalla</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted">Core Team Member</Card.Subtitle>
                                 <Card.Text className="team-text">"I believe that being confident in whatever comes my way is imperative since development is never going to be a cakewalk!"</Card.Text>
-                                <Card.Link href="https://github.com/SanskritiKushik5"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
-                                <Card.Link href="https://www.linkedin.com/in/sanskriti-kushik-2302/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://www.linkedin.com/in/shweta-bhalla-951172218/"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://www.linkedin.com/in/shweta-bhalla-951172218/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4}>
                         <Card className='card6'>
                             <Card.Body>
-                                <Image src={irit} className='picture' roundedCircle />
-                                <Card.Title>Irit Kushwaha</Card.Title>
+                                <Image src={arti} className='picture' roundedCircle />
+                                <Card.Title>Arti Bhandari</Card.Title>
                                 <Card.Subtitle className="mb-2 text-muted">Core Team Member</Card.Subtitle>
                                 <Card.Text className="team-text">"If I believe it will succeed, I'll see opportunities. If I believe it won't I will see obstructions"</Card.Text>
                                 <br></br>
-                                <Card.Link href="https://github.com/irit2607"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
-                                <Card.Link href="https://www.linkedin.com/in/irit-kushwaha-2607/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://github.com/arti2002"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
+                                <Card.Link href="https://www.linkedin.com/in/artibhandari/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col lg={4}>
-                        <Card className='card7'>
-                            <Card.Body>
-                                <Image src={tejashri} className='picture' roundedCircle />
-                                <Card.Title>Tejashri Mitbavkar</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Core Team Member</Card.Subtitle>
-                                <Card.Text className="team-text">"I believe in progress not perfection. Being a tech enthusiast, I have strong interest in designing and developing in new fields."</Card.Text>
-                                <br></br>
-                                <Card.Link href="https://github.com/tejashri-110"><SiGithub className='social' color='#000000' size='1.7em' /></Card.Link>
-                                <Card.Link href="https://www.linkedin.com/in/tejashri-mitbavkar-bb3871192/"><FaLinkedin className='social' color='#000000' size='1.7em' /></Card.Link>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+                    
                 </Row>
             </Container>
         </div>

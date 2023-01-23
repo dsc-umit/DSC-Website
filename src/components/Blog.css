@@ -11,7 +11,7 @@
   color: var(--txt-color);
 }
 .blog-card-view{
-  box-shadow: 0 4px 5px 3px #335bdf !important;
+  box-shadow: 0 4px 5px 3px #000208 !important;
   color: rgb(10, 10, 10) !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -21,7 +21,7 @@
 .blog-card-view:hover{
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(19, 111, 248, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(36, 38, 42, 0.561) !important;
 }
 
 
